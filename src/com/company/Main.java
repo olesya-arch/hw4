@@ -14,9 +14,13 @@ public class Main {
         r1.printRectangleKind();
         r2.printRectangleKind();
         r3.printRectangleKind();
-        System.out.println(r1.isTheSameRectangle(r1));
+        System.out.println(r1.isTheSameRectangle(r2));
         System.out.println(r2.isTheSameRectangle(r2));
-        System.out.println(r3.isTheSameRectangle(r3));
-        System.out.println("");
+        System.out.println(r3.isTheSameRectangle(r1));
+        System.out.println();
+        Rectangle.printRectanglesCount();
+        Rectangle.printClassName(true);
+        Rectangle.printClassName(false);
+
     }
 }
